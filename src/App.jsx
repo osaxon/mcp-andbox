@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import About from './About'
+import AboutMe from './AboutMe'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -38,11 +38,11 @@ function App() {
     <Router>
       <nav style={{ margin: '1rem 0', textAlign: 'center' }}>
         <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/about-me">About Me</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
     </Router>
   )

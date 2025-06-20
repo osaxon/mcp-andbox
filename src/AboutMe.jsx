@@ -1,6 +1,6 @@
-import './About.css';
+import './AboutMe.css';
 
-function About() {
+function AboutMe() {
   return (
     <div className="about-container">
       <h1>About This Experiment</h1>
@@ -23,4 +23,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutMe;
